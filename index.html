@@ -32,6 +32,9 @@
                 'card-color-2':'#EFDA6E',
                 'card-color-3':'#A4DAC3',
                 'card-color-4':'#77AAEA',
+                'footer-bg':'#1C1C1C',
+                'footer-primary':'#737373',
+                'footer-secondary':'#E9E9E9',
               }
             }
           }
@@ -157,7 +160,7 @@
 
 
        <!-- work section -->
-        <div class="p-4 lg:container mx-auto ">
+        <div class="py-4 pb-10 lg:container mx-auto ">
           <div class="lg:w-[50%]  mx-auto">
             <div class="flex justify-center  my-3"> <div class="flex items-center bg-white p-2 px-5 rounded-full ">
               <i class="fa-solid fa-arrow-right"></i>
@@ -216,9 +219,29 @@
         </div>
      </main>
      <!-- Footer section -->
-      <footer>
-
-      </footer>
+     <footer class="footer footer-center bg-footer-bg text-base-content rounded py-4">
+      <div class="flex mt-10 ">
+        <div class="p-2 bg-green-primary  rounded-full -rotate-45 flex items-center justify-center " ><i class="fa-solid fa-arrow-right "></i></div>
+        <div><a class=" text-3xl font-extrabold text-white ">Rinterio</a></div>
+      </div>
+      <p class="text-footer-primary lg:w-[50%] -mt-5 px-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+      <nav class="md:grid md:grid-flow-col md:gap-10 lg:gap-20 text-footer-secondary ">
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">Services</a>
+        <a class="link link-hover">Portfolio</a>
+        <a class="link link-hover">Blogs</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav>
+      <div class="mb-14">
+        <button>
+          <div class="flex justify-between items-center bg-green-primary rounded-full  md:w-44 px-2 p-2">
+            <a href=""><div><a class="font-bold md:text-base">Book Consult</a></div></a>
+            <a href=""><div class="p-2 bg-black  rounded-full -rotate-45 mx-2 flex items-center justify-center" ><i class="fa-solid fa-arrow-right  text-white "></i></div></a>
+          </div>
+        </button>
+      </div>
+      
+    </footer>
       <!-- <i class="fa-solid fa-arrow-right"></i> -->
 </body>
 </html>
